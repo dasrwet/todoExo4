@@ -88,7 +88,7 @@ testProjects(Projects projects) {
     test('Select Projects by Function', () {
       var programmingProjects = projects.select((p) => p.onProgramming);
       expect(programmingProjects.isEmpty, isFalse);
-      expect(programmingProjects.length, equals(2));
+      expect(programmingProjects.length, equals(3));
       programmingProjects.display('Select Projects by Function');
     });
     test('Select Projects by Function then Add', () {
