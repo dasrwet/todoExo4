@@ -114,7 +114,7 @@ testProjects(Projects projects) {
       var programmingProjects = projects.select((p) => p.onProgramming);
       expect(programmingProjects.isEmpty, isFalse);
 
-      var searchName = 'les entreprises';
+      var searchName = 'redaction CV1';
       var project = programmingProjects.find(searchName);
       expect(project, isNotNull);
       expect(project.name, equals(searchName));
