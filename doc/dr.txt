@@ -1,0 +1,22 @@
+ex04
+
+6/10
+
+(-1)
+TodoProj_entities.dart
+->
+todo_entities.dart
+
+voir https://www.dartlang.org/articles/style-guide/
+
+(-1) le concept aurait été nommé Tache
+Projet
+->
+Tache
+
+(-2) test: couleur rouge
+
+
+
+
+
